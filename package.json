@@ -1,11 +1,10 @@
 {
-  "name": "liveterm",
+  "name": "pompoy",
   "version": "0.1.0",
   "license": "MIT",
   "author": {
-    "name": "Vincent Wu",
-    "url": "https://cveinnt.com",
-    "email": "contact@wensenwu.com"
+    "name": "Pompoy",
+    "url": "https://x.com/0xzerebro/status/1865204702788423714"
   },
   "scripts": {
     "dev": "next dev",

@@ -1,20 +1,18 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
+  "title": "Zerebro's Fish",
+  "name": "Pompoy",
   "ascii": "liveterm",
   "social": {
     "github": "github",
     "linkedin": "linkedin"
   },
   "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
+  "ps1_hostname": "pompoy",
   "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "repo": "https://github.com/aicryptodev/LiveTerm",
+  "resume_url": "https://x.com/0xzerebro/status/1865204702788423714",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
   },
   "colors": {
     "light": {
