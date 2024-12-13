@@ -134,16 +134,12 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
- ██▓███   ▒█████   ███▄ ▄███▓ ██▓███   ▒█████  ▓██   ██▓   
-▓██░  ██▒▒██▒  ██▒▓██▒▀█▀ ██▒▓██░  ██▒▒██▒  ██▒ ▒██  ██▒   
-▓██░ ██▓▒▒██░  ██▒▓██    ▓██░▓██░ ██▓▒▒██░  ██▒  ▒██ ██░   
-▒██▄█▓▒ ▒▒██   ██░▒██    ▒██ ▒██▄█▓▒ ▒▒██   ██░  ░ ▐██▓░   
-▒██▒ ░  ░░ ████▓▒░▒██▒   ░██▒▒██▒ ░  ░░ ████▓▒░  ░ ██▒▓░   
-▒▓▒░ ░  ░░ ▒░▒░▒░ ░ ▒░   ░  ░▒▓▒░ ░  ░░ ▒░▒░▒░    ██▒▒▒    
-░▒ ░       ░ ▒ ▒░ ░  ░      ░░▒ ░       ░ ▒ ▒░  ▓██ ░▒░    
-░░       ░ ░ ░ ▒  ░      ░   ░░       ░ ░ ░ ▒   ▒ ▒ ░░     
-             ░ ░         ░                ░ ░   ░ ░        
-                                                ░ ░                           
+oooooooooo                                                                     
+ 888    888   ooooooo   oo ooo oooo   ooooooooo     ooooooo   oooo   oooo      
+ 888oooo88  888     888  888 888 888   888    888 888     888  888   888       
+ 888        888     888  888 888 888   888    888 888     888   888 888        
+o888o         88ooo88   o888o888o888o  888ooo88     88ooo88       8888         
+                                      o888                     o8o888                        
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
