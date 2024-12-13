@@ -44,11 +44,6 @@ export const resume = async (args: string[]): Promise<string> => {
 };
 
 // Donate
-export const donate = async (args: string[]): Promise<string> => {
-  return `thank you for your interest. 
-here are the ways you can support my work:
-`;
-};
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
