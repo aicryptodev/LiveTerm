@@ -83,7 +83,7 @@ Learn more about Docker [here](https://docs.docker.com/get-started/overview/ 'he
     "linkedin": // your handle
   },
   "email": // your email
-  "ps1_hostname": "liveterm" // hostname in prompt
+  "ps1_hostname": "pompoy" // hostname in prompt
   "ps1_username": "visitor", // username in prompt
   "resume_url": "../resume.pdf", // path to your resume
   "non_terminal_url": "W",
