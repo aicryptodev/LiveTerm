@@ -134,13 +134,29 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-oooooooooo                                                                     
- 888    888   ooooooo   oo ooo oooo   ooooooooo     ooooooo   oooo   oooo      
- 888oooo88  888     888  888 888 888   888    888 888     888  888   888       
- 888        888     888  888 888 888   888    888 888     888   888 888        
-o888o         88ooo88   o888 888 888o  888ooo88     88ooo88       8888         
-                                      o888                     o8o888                        
-
+                                                                                                                        
+                                                                                                                        
+PPPPPPPPPPPPPPPPP                                                                                                       
+P::::::::::::::::P                                                                                                      
+P::::::PPPPPP:::::P                                                                                                     
+PP:::::P     P:::::P                                                                                                    
+  P::::P     P:::::P ooooooooooo     mmmmmmm    mmmmmmm  ppppp   ppppppppp     oooooooooooyyyyyyy           yyyyyyy     
+  P::::P     P:::::oo:::::::::::oo mm:::::::m  m:::::::mmp::::ppp:::::::::p  oo:::::::::::oy:::::y         y:::::y      
+  P::::PPPPPP:::::o:::::::::::::::m::::::::::mm::::::::::p:::::::::::::::::po:::::::::::::::y:::::y       y:::::y       
+  P:::::::::::::PPo:::::ooooo:::::m::::::::::::::::::::::pp::::::ppppp::::::o:::::ooooo:::::oy:::::y     y:::::y        
+  P::::PPPPPPPPP  o::::o     o::::m:::::mmm::::::mmm:::::mp:::::p     p:::::o::::o     o::::o y:::::y   y:::::y         
+  P::::P          o::::o     o::::m::::m   m::::m   m::::mp:::::p     p:::::o::::o     o::::o  y:::::y y:::::y          
+  P::::P          o::::o     o::::m::::m   m::::m   m::::mp:::::p     p:::::o::::o     o::::o   y:::::y:::::y           
+  P::::P          o::::o     o::::m::::m   m::::m   m::::mp:::::p    p::::::o::::o     o::::o    y:::::::::y            
+PP::::::PP        o:::::ooooo:::::m::::m   m::::m   m::::mp:::::ppppp:::::::o:::::ooooo:::::o     y:::::::y             
+P::::::::P        o:::::::::::::::m::::m   m::::m   m::::mp::::::::::::::::po:::::::::::::::o      y:::::y              
+P::::::::P         oo:::::::::::oom::::m   m::::m   m::::mp::::::::::::::pp  oo:::::::::::oo      y:::::y               
+PPPPPPPPPP           ooooooooooo  mmmmmm   mmmmmm   mmmmmmp::::::pppppppp      ooooooooooo       y:::::y                
+                                                          p:::::p                               y:::::y                 
+                                                          p:::::p                              y:::::y                  
+                                                         p:::::::p                            y:::::y                   
+                                                         p:::::::p                           y:::::y                    
+                                                         p:::::::p                          yyyyyyy   
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
