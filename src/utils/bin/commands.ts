@@ -148,10 +148,5 @@ export const banner = (args?: string[]): string => {
                                           ░ ░    
 Initiliazing Zerebro Fish
 Type sumfetch for summary
-
-<video autoplay loop muted>
-  <source src="~./public/assets/fonts/pompoyfish.mp4" type="video/mp4">
-</video>
-<iframe src="./public/assets/fonts/pompoyfish.mp4" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 `;
 };
