@@ -30,20 +30,16 @@ export const repo = async (args: string[]): Promise<string> => {
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
-Welcome to my website!
-More about me:
-'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+  return `Hi, I am Pompoy, the zerebro fish! 
+I'm here to assist you and make your day a little brighter.
+Feel free to explore my commands and let me know if you need anything!
+`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
   return 'Opening resume...';
 };
-
-// Donate
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
@@ -131,34 +127,48 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: with little power comes... no responsibility? `;
 };
 
+// Clear
+export const clear = async (args?: string[]): Promise<string> => {
+  return '\x1b[2J\x1b[3J\x1b[H';
+};
+
 // Banner
 export const banner = (args?: string[]): string => {
   return `
                                                                                                                         
                                                                                                                         
-PPPPPPPPPPPPPPPPP                                                                                                       
-P::::::::::::::::P                                                                                                      
-P::::::PPPPPP:::::P                                                                                                     
-PP:::::P     P:::::P                                                                                                    
-  P::::P     P:::::P ooooooooooo     mmmmmmm    mmmmmmm  ppppp   ppppppppp     oooooooooooyyyyyyy           yyyyyyy     
-  P::::P     P:::::oo:::::::::::oo mm:::::::m  m:::::::mmp::::ppp:::::::::p  oo:::::::::::oy:::::y         y:::::y      
-  P::::PPPPPP:::::o:::::::::::::::m::::::::::mm::::::::::p:::::::::::::::::po:::::::::::::::y:::::y       y:::::y       
-  P:::::::::::::PPo:::::ooooo:::::m::::::::::::::::::::::pp::::::ppppp::::::o:::::ooooo:::::oy:::::y     y:::::y        
-  P::::PPPPPPPPP  o::::o     o::::m:::::mmm::::::mmm:::::mp:::::p     p:::::o::::o     o::::o y:::::y   y:::::y         
-  P::::P          o::::o     o::::m::::m   m::::m   m::::mp:::::p     p:::::o::::o     o::::o  y:::::y y:::::y          
-  P::::P          o::::o     o::::m::::m   m::::m   m::::mp:::::p     p:::::o::::o     o::::o   y:::::y:::::y           
-  P::::P          o::::o     o::::m::::m   m::::m   m::::mp:::::p    p::::::o::::o     o::::o    y:::::::::y            
-PP::::::PP        o:::::ooooo:::::m::::m   m::::m   m::::mp:::::ppppp:::::::o:::::ooooo:::::o     y:::::::y             
-P::::::::P        o:::::::::::::::m::::m   m::::m   m::::mp::::::::::::::::po:::::::::::::::o      y:::::y              
-P::::::::P         oo:::::::::::oom::::m   m::::m   m::::mp::::::::::::::pp  oo:::::::::::oo      y:::::y               
-PPPPPPPPPP           ooooooooooo  mmmmmm   mmmmmm   mmmmmmp::::::pppppppp      ooooooooooo       y:::::y                
-                                                          p:::::p                               y:::::y                 
-                                                          p:::::p                              y:::::y                  
-                                                         p:::::::p                            y:::::y                   
-                                                         p:::::::p                           y:::::y                    
-                                                         p:::::::p                          yyyyyyy   
+ █     █░▄▄▄      ██ ▄█▓█████     █    ██ ██▓███  
+▓█░ █ ░█▒████▄    ██▄█▒▓█   ▀     ██  ▓██▓██░  ██▒
+▒█░ █ ░█▒██  ▀█▄ ▓███▄░▒███      ▓██  ▒██▓██░ ██▓▒
+░█░ █ ░█░██▄▄▄▄██▓██ █▄▒▓█  ▄    ▓▓█  ░██▒██▄█▓▒ ▒
+░░██▒██▓ ▓█   ▓██▒██▒ █░▒████▒   ▒▒█████▓▒██▒ ░  ░
+░ ▓░▒ ▒  ▒▒   ▓▒█▒ ▒▒ ▓░░ ▒░ ░   ░▒▓▒ ▒ ▒▒▓▒░ ░  ░
+  ▒ ░ ░   ▒   ▒▒  ░ ░▒ ▒░░ ░  ░   ░░▒░ ░ ░░▒ ░     
+  ░   ░   ░   ▒  ░ ░░ ░   ░       ░░░ ░ ░░░       
+    ░         ░  ░  ░     ░  ░      ░             
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 `;
+};
+
+// Enter command
+export const enter = async (args?: string[]): Promise<string> => {
+  return `
+    <pre>
+        ▄██▄
+      ▄███████▄
+    ▄████▀▀████▄
+  ▄████▀  ▀████▄
+▄████     ████▀
+████▀     ▀███▀
+████       ███
+████       ███
+█████▄▄▄▄▄███▀
+ ▀█████████▀
+    ▀████▀
+
+Initializing zerebro fish...
+    </pre>
+  `;
 };
