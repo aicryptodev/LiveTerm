@@ -151,7 +151,7 @@ Type sumfetch for summary
 
 <video autoplay loop muted>
   <source src="~./public/assets/fonts/pompoyfish.mp4" type="video/mp4">
-  Your browser does not support the video tag.
 </video>
+<iframe src="./public/assets/fonts/pompoyfish.mp4" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 `;
 };
