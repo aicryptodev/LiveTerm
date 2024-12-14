@@ -150,7 +150,7 @@ Initiliazing Zerebro Fish
 Type sumfetch for summary
 
 <video autoplay loop muted>
-  <source src="public/pompoyfish.mp4" type="video/mp4">
+  <source src="~./public/assets/fonts/pompoyfish.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 `;
