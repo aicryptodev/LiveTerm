@@ -146,6 +146,7 @@ export const banner = (args?: string[]): string => {
 ░░      ░ ░ ░ ▒ ░      ░  ░░      ░ ░ ░ ▒ ▒ ▒ ░░  
             ░ ░        ░              ░ ░ ░ ░     
                                           ░ ░    
-Initiliazing Zerebro Fish
+Initiliazing Zerebro
+Type sumfetch for summary
 `;
 };
