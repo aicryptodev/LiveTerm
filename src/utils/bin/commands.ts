@@ -30,16 +30,20 @@ export const repo = async (args: string[]): Promise<string> => {
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am Pompoy, the zerebro fish! 
-I'm here to assist you and make your day a little brighter.
-Feel free to explore my commands and let me know if you need anything!
-`;
+  return `Hi, I am ${config.name}. 
+Welcome to my website!
+More about me:
+'sumfetch' - short summary.
+'resume' - my latest resume.
+'readme' - my github readme.`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
   return 'Opening resume...';
 };
+
+// Donate
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
@@ -127,48 +131,21 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: with little power comes... no responsibility? `;
 };
 
-// Clear
-export const clear = async (args?: string[]): Promise<string> => {
-  return '\x1b[2J\x1b[3J\x1b[H';
-};
-
 // Banner
 export const banner = (args?: string[]): string => {
   return `
                                                                                                                         
                                                                                                                         
- █     █░▄▄▄      ██ ▄█▓█████     █    ██ ██▓███  
-▓█░ █ ░█▒████▄    ██▄█▒▓█   ▀     ██  ▓██▓██░  ██▒
-▒█░ █ ░█▒██  ▀█▄ ▓███▄░▒███      ▓██  ▒██▓██░ ██▓▒
-░█░ █ ░█░██▄▄▄▄██▓██ █▄▒▓█  ▄    ▓▓█  ░██▒██▄█▓▒ ▒
-░░██▒██▓ ▓█   ▓██▒██▒ █░▒████▒   ▒▒█████▓▒██▒ ░  ░
-░ ▓░▒ ▒  ▒▒   ▓▒█▒ ▒▒ ▓░░ ▒░ ░   ░▒▓▒ ▒ ▒▒▓▒░ ░  ░
-  ▒ ░ ░   ▒   ▒▒  ░ ░▒ ▒░░ ░  ░   ░░▒░ ░ ░░▒ ░     
-  ░   ░   ░   ▒  ░ ░░ ░   ░       ░░░ ░ ░░░       
-    ░         ░  ░  ░     ░  ░      ░             
-Type 'help' to see the list of available commands.
-Type 'sumfetch' to display summary.
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
+ ██▓███  ▒█████  ███▄ ▄███▓██▓███  ▒█████▓██   ██▓
+▓██░  ██▒██▒  ██▓██▒▀█▀ ██▓██░  ██▒██▒  ██▒██  ██▒
+▓██░ ██▓▒██░  ██▓██    ▓██▓██░ ██▓▒██░  ██▒▒██ ██░
+▒██▄█▓▒ ▒██   ██▒██    ▒██▒██▄█▓▒ ▒██   ██░░ ▐██▓░
+▒██▒ ░  ░ ████▓▒▒██▒   ░██▒██▒ ░  ░ ████▓▒░░ ██▒▓░
+▒▓▒░ ░  ░ ▒░▒░▒░░ ▒░   ░  ▒▓▒░ ░  ░ ▒░▒░▒░  ██▒▒▒ 
+░▒ ░      ░ ▒ ▒░░  ░      ░▒ ░      ░ ▒ ▒░▓██ ░▒░ 
+░░      ░ ░ ░ ▒ ░      ░  ░░      ░ ░ ░ ▒ ▒ ▒ ░░  
+            ░ ░        ░              ░ ░ ░ ░     
+                                          ░ ░    
+Initiliazing Zerebro Fish
 `;
-};
-
-// Enter command
-export const enter = async (args?: string[]): Promise<string> => {
-  return `
-    <pre>
-        ▄██▄
-      ▄███████▄
-    ▄████▀▀████▄
-  ▄████▀  ▀████▄
-▄████     ████▀
-████▀     ▀███▀
-████       ███
-████       ███
-█████▄▄▄▄▄███▀
- ▀█████████▀
-    ▀████▀
-
-Initializing zerebro fish...
-    </pre>
-  `;
 };
